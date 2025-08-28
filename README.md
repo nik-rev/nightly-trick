@@ -37,3 +37,5 @@ That's it!
 
 If you try to use a feature from 1.85 but your `rust-version` is set to 1.74 for example, the
 [`incompatible_msrv`](https://rust-lang.github.io/rust-clippy/master/index.html#/incompatible_msrv) lint will prevent you from doing so. 
+
+[`lib.rs`](./src/lib.rs) has 3 examples for you.
