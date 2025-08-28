@@ -1,0 +1,11 @@
+toolchain.channel = "nightly-2025-08-24"
+# The nightly version of these components is automatically installed
+# when you do `cargo run`
+toolchain.components = [
+  "rust-analyzer",
+  "cargo",
+  "rustfmt",
+  "clippy",
+  "rustc",
+  "rust-src"
+]
