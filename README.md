@@ -21,6 +21,9 @@ This repo shows a trick you can use to allow usage of `nightly` rustfmt. You als
 
 - You can even use and enjoy any nightly `#![feature]` in tests!
 
+- You can use the latest `nightly` version of `rust-analyzer` even for a project with an ancient MSRV like `1.24`,
+  rust-analyzer frequently gains extreme quality-of-life updates to make Rust development more pleasant!
+
 - Toolchain is automatically installed, and auto-formatting just works for free. Yes, you can use `cargo +nightly fmt` but this *won't* work with auto-save without having to configure
   every editor. This usually means cluttering your codebase with `.vscode`, `.helix`, `.zed` etc for every editor because we
   [don't have a single way to configure language servers](https://github.com/microsoft/language-server-protocol/issues/2127). And even then, after adding 10+ folders not all editors will be covered.
