@@ -76,3 +76,9 @@ mod it {
 #[rustfmt::skip] // comment it out
 #[allow(unused)]
 use it::{A, B};
+
+// BONUS: if you want to use "edition = 2024" in tests (requires at least Rust 1.85)
+// while keeping "edition = 2021", you have to create a separate
+// crate called `tests` and specify "edition = 2024" there.
+//// Rust does not allow us to have a crate with edition 2021 but a module in the crate
+// is edition 2024. This restriction does not exist for `#[feature]`, though!
